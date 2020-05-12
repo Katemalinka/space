@@ -1,0 +1,117 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: "Abel", "Arial", sans-serif;;
+    background: url(cosmos.jpg) no-repeat center center fixed;
+}
+
+#container {
+  justify-content: flex-start; /* Cette valeur peut être changée dans la démonstration */
+  background-color: #F97A03;
+
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  align-content: flex-end;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+ul {
+	display: block;
+	list-style: none;
+	margin: 20px 0px;
+	padding: 0;
+}
+
+ul li {
+	display: inline;
+	white-space: nowrap;
+	font-family: "Calibri";
+	color: white;
+}
+
+.fa, ul {
+	align-content: end;
+}
+
+h1 {
+	font-size: 3rem;
+	color: #ccccff;
+	text-align: center;
+}
+
+h3 {
+	font-size: 1rem;
+	color: white;
+	text-align: center;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.box :first-child {
+    align-self: center;
+}
+
+.push {
+    margin-left: auto;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+	margin: 10px; /*przestrzen miedzy obrazkami*/
+	transition: all 1s; /*obrazki sie poruszaja 1 sekunde*/
+}
+
+img:hover {
+	transform: scale(1.1);
+	/*animation: interesting property; look it up*/
+}
+
+.btn {
+	border-radius: 40px;
+	text-transform: uppercase;
+	border-width: 10px; 
+
+}
+
+.btn:hover {
+	border-width: 10px; 
+	color: orange;
+}
+
